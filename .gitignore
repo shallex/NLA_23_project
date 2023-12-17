@@ -1,6 +1,7 @@
 ./s4/data
 ./s4/docs
 ./s4/images
+./s4/models
 ./s4/outputs
 ./s4/tests
 ./s4/s4.ipynb
@@ -11,3 +12,5 @@
 ./s4/*.tar.gz
 ./s4/*.toml
 ./s4/LICENSE
+./s4/SpeechCommands
+*__pycache__*
