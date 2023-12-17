@@ -1,0 +1,13 @@
+./s4/data
+./s4/docs
+./s4/images
+./s4/outputs
+./s4/tests
+./s4/s4.ipynb
+./s4/Makefile
+./s4/setup.cfg
+./s4/setup.py
+./s4/*.md
+./s4/*.tar.gz
+./s4/*.toml
+./s4/LICENSE
