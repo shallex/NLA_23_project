@@ -1,0 +1,11 @@
+chex
+einops
+flax==0.6.10
+torchaudio
+torchvision
+torchtext
+tensorflow-datasets
+pydub
+datasets
+tqdm
+wandb
