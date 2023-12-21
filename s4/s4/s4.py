@@ -586,6 +586,7 @@ class StackedModel(nn.Module):
             if not self.decode:
                 x = np.pad(x[:-1], [(1, 0), (0, 0)])
         x = self.encoder(x)
+        
         for layer in self.layers:
             x = layer(x)
         if self.classification:
