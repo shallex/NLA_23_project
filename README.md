@@ -13,7 +13,11 @@ Neural models play a crucial role in various applications, and understanding the
 ## Models
 
 ### S4
-S4 is a neural model designed for [provide brief description]. It excels in [mention specific strengths] but may have limitations in [highlight potential weaknesses].
+S4 is a neural model designed for long time series. Structured State Space sequence model (S4) based on a new parameterization for the SSM, and show that it can be computed much more efficiently than prior approaches while preserving their theoretical strengths.
 
 ### LRU
-LRU, on the other hand, is a neural model with a different architecture, tailored for [provide brief description]. It stands out in [highlight specific strengths] but may face challenges in [mention potential weaknesses].
+LRU has careful design of deep RNNs using standard signal propagation arguments can recover
+the impressive performance of deep SSMs on long-range reasoning tasks, while also matching their
+training speed. To achieve this, we analyze and ablate a series of changes to standard RNNs including
+linearizing and diagonalizing the recurrence, using better parameterizations and initializations, and
+ensuring proper normalization of the forward pass.
