@@ -1,7 +1,7 @@
 # NLA_23_project
 
 
-# Project Name: Neural Model Comparison
+# Neural Model Comparison
 
 ## Overview
 This project compares two neural models: S4 and LRU, evaluating their performance across accuracy. We compare in task Key-Word Spotting. Audio is a long time-series format and good fit for this models.
